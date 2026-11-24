@@ -1,0 +1,15 @@
+{
+  "name": "chat-smart-relay",
+  "version": "2.0.0",
+  "description": "Smart WebSocket relay server for Chat with RSA-2048 Admin Auth, Device Trust Verification, 30s Heartbeat Control & Message Vault",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
