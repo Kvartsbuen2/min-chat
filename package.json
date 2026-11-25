@@ -1,6 +1,6 @@
 {
   "name": "chat-smart-relay",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "Smart WebSocket relay server for Chat v3.0.0 with Accounts & Passwords, Chrome-compatible Sessions, Tenor GIFs & Favorites, 80 Reactions & Hidden Admin Panel",
   "main": "server.js",
   "scripts": {
