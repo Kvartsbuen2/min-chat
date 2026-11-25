@@ -1,0 +1,9 @@
+node_modules/
+chat_relay_state.json
+chat_relay_vault.jsonl
+admin_private.txt
+admin_private.key
+admin_passordfil.txt
+*.key
+.env
+.DS_Store
