@@ -64,6 +64,7 @@ Live nettside: **https://min-chat-qtl0.onrender.com**
 - **Start command:** `npm start` (`node server.js`)
 - **Node:** `>= 18.0.0`
 - **Valgfrie miljøvariabler:**
+  - `UPSTASH_REDIS_REST_URL` + `UPSTASH_REDIS_REST_TOKEN` — **anbefalt på Render Free!** 100 % gratis, permanent sky-lagring hos [upstash.com](https://upstash.com) slik at kontoer, passord, økter, venner, private kanaler, GIF-favoritter og chathistorikk ALDRI slettes ved deploy/restart
   - `DATA_DIR` — mappe for persistent lagring av `chat_relay_state.json` og `chat_relay_vault.jsonl`
   - `ADMIN_PASSWORD` — forhåndsoppretter `@kvartsbuen` med dette passordet hvis serveren starter tom
   - `KLIPY_API_KEY` — valgfri KLIPY API-nøkkel for GIF-søk (Tenor fungerer automatisk uten)
